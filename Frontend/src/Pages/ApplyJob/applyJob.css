@@ -1,0 +1,10 @@
+.design_container ul{
+    list-style: disc;
+    margin-left: 15px;
+    margin-top: 15px;
+    text-decoration: justify;
+}
+
+.design_container ul li{
+    margin-top: 0.50rem;
+}
