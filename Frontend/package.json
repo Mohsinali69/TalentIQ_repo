@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "postinstall": "npm install",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -52,8 +51,5 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
     "vite": "^5.4.8"
-  },
-  "engines": {
-    "node": "16.x"
   }
 }
