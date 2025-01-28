@@ -25,8 +25,8 @@ app.use(cors({
 app.use(express.json())
 app.use(bodyParser.json());
 
-// const uri = process.env.MONGODB_API_KEY
-const uri = 'mongodb+srv://alim:0XJZxB6G5qatiUwS@cluster0.t2e1s.mongodb.net/e_recruitment_db?retryWrites=true&w=majority&appName=Cluster0'
+const uri = process.env.MONGODB_API_KEY
+// const uri = ''
 mongoose.connect(uri).then(()=>{
     console.log("Connected to MongoDB")
 })
